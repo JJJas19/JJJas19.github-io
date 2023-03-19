@@ -1,196 +1,304 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>THIS-IS-JAS</title><meta name="author" content="Jas"><meta name="copyright" content="Jas"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="THIS-IS-JAS">
+<meta property="og:url" content="https://jjjas19.github.io/index.html">
+<meta property="og:site_name" content="THIS-IS-JAS">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="Jas">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://jjjas19.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'THIS-IS-JAS',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-03-19 13:14:03'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-<meta name="generator" content="Hexo 5.4.2"></head>
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2023/03/18/hello-world/" class="article-date">
-  <time datetime="2023-03-18T15:38:28.005Z" itemprop="datePublished">2023-03-18</time>
-</a>
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/03/18/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://w.wallhaven.cc/full/yx/wallhaven-yxqlzg.png')"><nav id="nav"><span id="blog-info"><a href="/" title="THIS-IS-JAS"><span class="site-name">THIS-IS-JAS</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">THIS-IS-JAS</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%B8%89%E3%80%81%E6%90%9C%E7%B4%A2%E4%B8%8E%E5%9B%BE%E8%AE%BA3/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.315Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">最小生成树
+二分图
+最小生成树问题对应的都是无向图，有向图对应的最小生成树问题一般不会用到
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+一般情况下，稠密图用朴素版Prim，稀疏图用kruskal堆优化版Prim用的比较少
+朴素版Prim
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 510;int n, m;int g[N][N];int dist[N];bool st[N];int prim()&#123;    memset(dist, 0x3f, sizeof dist);        int res = 0;    for (int i = 0; i &lt; n; i ++ )    &#123;        int t = -1;        for (int j = 1; j &lt;= n; j ++ )            ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%B8%89%E3%80%81%E6%90%9C%E7%B4%A2%E4%B8%8E%E5%9B%BE%E8%AE%BA2/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.309Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">最短路
+源点 起点
+汇点 终点
+单源最短路 从一个点到其他所有点的最短路
+多源汇最短路 任选两个点a，b求ab间最短路
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+稠密图用邻接矩阵存
+稀疏图用邻接表存
+朴素版 Djkstra稠密图
+dist[i] 表示i点到1号点的距离， dist[1] = 0
+s[] 存储当前已经确定最短距离的点
+1.初始化距离
+2.for 循环更新
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+acwing849.
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 510;int n, m;int g[N][N];int dist[N];bool st[N];int dijkstra()&#123;    memset(dist, 0x3f, sizeof dist);    dist[1] = 0;        for (int i = 0; i &lt; n; i ++ )    ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%B8%89%E3%80%81%E6%90%9C%E7%B4%A2%E4%B8%8E%E5%9B%BE%E8%AE%BA1/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.303Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">dfs深度优先搜索
+bfs宽度优先搜索
+树与图的存储
+树与图的dfs
+树与图的bfs
+拓扑排序
+bfs和dfs搜索顺序不同，但都是把图和树遍历一遍
+dfs搜到头回溯
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/18/hello-world/" data-id="clfeuqr40000080vo64xehmnx" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">March 2023</a></li></ul>
-    </div>
-  </div>
+bfs一层一层搜
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/03/18/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2023 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+dfsdfs求全排列
 
 
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+典中典dfs
+12345678910111213141516171819202122232425262728293031323334353637#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 10;int n;int path[N];bool st[N];void dfs(int u)&#123;    if (u == n)    &#123;        for (int i = 0; i &lt; n; i ++ ) printf(&quot;%d &quot;, path[i]);        puts(&quot;&quot;);        return;    &#125;        for (int i = 1; i &lt;= n; i ++ )        if  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%BA%8C%E3%80%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%843/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.296Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">哈希表
+stl简介
+哈希表普通哈希表写法
+字符串哈希
+O(1)
 
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
+作用：把一个庞大的值域映射到一个较小的值域
+eg：
+离散化是一种特殊的哈希方式
+
+定义域较大，映射到值域较小的函数可以称作哈希函数
+通常通过取模来构造哈希函数，一般取一个质数！！并且离2的整数次幂尽可能远，使得冲突的可能性尽可能小，具体自己找数学证明
+但是极大概率存在冲突，即两个不同的值映射到同一个值比如h[5] = h[10] = 5
+处理冲突的两种主要方法即拉链法和开放寻址法
+拉链法
+每个槽拉一条“链”（单链表）
+哈希表是期望算法，因此时间复杂度可以看作O(1)，所以一般只支持添加和查找某一个数，不支持删除
+非要实现删除的话也并不是真的删掉，而是开一个数组（布尔变量），把要删除的点打上一个标记
+
+123456789101112131415161718192021222324252627282930313233343536373839404142434445#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 100003; // 大于1e5的第 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%BA%8C%E3%80%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%842/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.289Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">trie
+并查集
+堆 手写
+Trie树：高效地存储和查找字符串集合的数据结构特征：字符类型不会很多，比如全是小写字母，大写字母等
+eg: 存储
+左列的字符串 存储结果如右边的树
+
+字符串结尾打上标记
+查找：按字符逐个往下查找，存在的条件需要满足：1-查找的字符串中的每个字符都在树中
+2-结尾有标记
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 1e5 + 10;int son[N][26], cnt[N], idx; // 下标是0的点既是根节点又是空节点char str[N];void insert(char str[])&#123;    int p = 0;    for (int i = 0; str[i]; i ++ )// 字符数组最后一位是0 因此可以这样遍历    &#123;        int u = str ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%BA%8C%E3%80%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%841/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.282Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">链表 队列 kmp
+数组模拟为主 速度快
+1.链表与邻接表
+2.栈与队列
+3.kmp
+链表单链表：邻接表 n个链表 应用：存储图和树
+int e[N]存储每个点的值value，表示该点的值；int ne[N]存储每个点的next指针，表示下一个点的位置
+e和ne通过下标关联
+每个点用下标表示，空节点用-1表示
+链表在数组里的表达式
+
+插入操作
+
+
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647#include &lt;iostream&gt;using namespace std;const int N = 100010;// head 表示头节点下标// e[i] 表示节点i的值// ne[i] 表示节点i的下一个坐标是多少// idx 存储当前已经用到了哪个点int head, e[N], ne[N], idx;//初始化void init() &#123;    head = -1;    idx = 0;&#125;//将x插到头节点void add_to ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E7%AE%97%E6%B3%953/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.275Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">
+双指针算法通用模板
+
+运用某些单调性质
+
+指向两个数组 或者 指向单个数组
+简单应用 输入一个字符串 每行输出其中的单词 单词会拿空格隔开 eg：input: “abc def ghi”
 
 
 
+如何写 check 函数
+题目数据范围较小
+开一个数组S[N]记录这个数在区间里出现了多少次 当i往右移动一位时 S[a[i]] ++ 当j往右一格时 S[a[j]] – 
 
-<script src="/js/script.js"></script>
+代码实现
+
+位运算
+常用操作
 
 
+依次看n的第k位是几
+个位是第0位(k = 0) 二位是1 四位是2 以此类推
+
+lowbit(x) 返回x二进制位的最后一位一 返回值位二进制
+
+应用 统计x里1的个数
 
 
-  </div>
-</body>
-</html>
+离散化 特指整数离散化 保序
+含义：值域比较大 个数比较少
+
+映射到从0开始的连续自然数
+两个问题
+
+模板
+
+eg
+
+经典性质 跨度大2×10^9 但要用到的数较小3×10^5 可以用离散化做
+保序离散化方式 
+把下标读进来离散化到另一个数组中 通过求这个数组的前缀和
+
+关于pair
+pair - OI Wiki (oi-wiki.org)
+区间和并 贪心 + 模拟
+合并有交集的区间 即求并集
+快速把几个有交集的区 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E7%AE%97%E6%B3%951%202%E5%BE%85%E8%A1%A5%E5%85%85/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.264Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">排序1.快速排序——分治①确定分界点②调整区间③递归处理左右两段模板题：12345678910111213141516171819202122232425262728293031323334353637383940#include &lt;iostream&gt;using namespace std;const int N = 1e5 + 10;int n;int q[N];void quick_sort(int q[], int l, int r)&#123;    if (l &gt;= r) return; #判断边界        int x = q[(l+r)/2],i = l - 1,j = r + 1; #取分节点    while (i&lt;j) #迭代    &#123;        do i++;while (q[i] &lt; x);        do j--;while (q[j] &gt; x);        if (i &lt; j) swap(q[i],q[j]); #交换指针    &#125;        quick_sort(q,l,j) ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%BA%94%E3%80%81%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%922/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:10:04.261Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></span></div><div class="content">线性dp
+递推顺序近似线性
+区间dp
+tips:
+
+如果会调用到f[i - 1]一般i从1开始循环防止越界造成的麻烦
+dp时间复杂度一般等于状态数量*转移计算量
+
+线性dp数字三角形
+12345678910111213141516171819202122232425262728293031#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 510, INF = 1e9;int n;int a[N][N];int f[N][N];int main()&#123;    cin &gt;&gt; n;    for (int i = 1; i &lt;= n; i ++ )        for (int j = 1; j &lt;= i; j ++ )            cin &gt;&gt; a[i][j];        for (int i = 0 ; i &lt;= n; i ++ )        for (int j = 0; j &lt;= i + 1; j ++ )            f ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/19/%E4%BA%94%E3%80%81%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%921/" title="无题">无题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-19T05:06:24.309Z" title="发表于 2023-03-19 13:06:24">2023-03-19</time></span></div><div class="content">01背包：每件物品最多用一次
+完全背包：每件物品可以用无限次，只要体积够用
+多重背包：每个物品个数不一样，有限个
+分组背包：每一组有若干个，每一组最多只能选一个
+背包问题：给n个物品和容量是v的背包，每个物品有两个属性即体积a和价值w(权重)，每件物品能用若干次，求最大价值之和(总体积要装得下)，不一定要装满
+dp解题方法
+dp优化一般是对dp问题的代码或者计算方程做等价变形，先写基本形式再做优化
+01背包问题
+
+朴素版 2个维度
+123456789101112131415161718192021222324252627#include &lt;bits/stdc++.h&gt;using namespace std;const int N = 1010;int n, m;int v[N], w[N];inf f[N][N];int main()&#123;    cin &gt;&gt; n &gt;&gt; m;        for (int i = 1; i &lt;= n ; i ++ ) cin &gt;&gt; v[i] &gt;&gt; w[i];        for ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Jas</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/19/%E4%B8%89%E3%80%81%E6%90%9C%E7%B4%A2%E4%B8%8E%E5%9B%BE%E8%AE%BA3/" title="无题">无题</a><time datetime="2023-03-19T05:10:04.315Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/19/%E4%B8%89%E3%80%81%E6%90%9C%E7%B4%A2%E4%B8%8E%E5%9B%BE%E8%AE%BA2/" title="无题">无题</a><time datetime="2023-03-19T05:10:04.309Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/19/%E4%B8%89%E3%80%81%E6%90%9C%E7%B4%A2%E4%B8%8E%E5%9B%BE%E8%AE%BA1/" title="无题">无题</a><time datetime="2023-03-19T05:10:04.303Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/19/%E4%BA%8C%E3%80%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%843/" title="无题">无题</a><time datetime="2023-03-19T05:10:04.296Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/19/%E4%BA%8C%E3%80%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%842/" title="无题">无题</a><time datetime="2023-03-19T05:10:04.289Z" title="发表于 2023-03-19 13:10:04">2023-03-19</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">10</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-03-19T05:14:03.772Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Jas</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
